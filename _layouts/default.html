@@ -7,6 +7,15 @@
     {% feed_meta %} {% seo %}
   </head>
 
+  <script>
+    var JEKYLLPLUS_REPO = 'cuatrobob/JKPTest/master';
+    var JEKYLLPLUS_PATH = '{{ page.path }}';
+  </script>
+  <script src='//cms.jekyllplus.com/assets/widget.js' />
+  </script>
+
+  <link rel='stylesheet' href='//cms.jekyllplus.com/assets/widget.css' />
+
   <body>
     {% include navigation.html %}
     {{ content }}
